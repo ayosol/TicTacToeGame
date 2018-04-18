@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:foregroundGravity="fill_horizontal|center|fill"
+    android:orientation="vertical"
+    tools:context="com.example.android.tic_tac_toegame.MainActivity"
+    tools:visibility="visible">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/welcome"
+        android:textAllCaps="true"
+        android:textColor="#FF0066"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="82dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/select_turn"
+        android:textAllCaps="true"
+        android:textColor="#CE93D8"
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:id="@+id/choose_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:onClick="choose_turn"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:checked="true"
+            android:text="@string/player1"
+            android:textSize="32sp" />
+
+        <RadioButton
+            android:id="@+id/player2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="130dp"
+            android:text="@string/player2"
+            android:textSize="32sp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/select_option"
+        android:textAllCaps="true"
+        android:textColor="#CE93D8"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="289dp">
+
+        <Button
+            android:id="@+id/single_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:text="@string/playComputer"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/two_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="92dp"
+            android:text="@string/playHuman"
+            android:textSize="18sp" />
+
+        <!--<Button-->
+        <!--android:id="@+id/about"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:onClick="about_game"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="92dp"-->
+        <!--android:text="About Game"-->
+        <!--android:textSize="18sp" />-->
+
+
+    </RelativeLayout>
+
+</LinearLayout>

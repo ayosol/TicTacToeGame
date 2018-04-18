@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@menu/game_menu">
+
+    <item
+        android:id="@+id/newGame"
+        android:enabled="true"
+        android:title="@string/newGame_label" />
+    <item
+        android:id="@+id/exitGame"
+        android:enabled="true"
+        android:title="@string/exitGame_label" />
+</menu>
