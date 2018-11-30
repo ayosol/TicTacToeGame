@@ -34,10 +34,10 @@
 
     <RadioGroup
         android:id="@+id/choose_player"
-        android:layout_width="match_parent"
+        android:layout_width="292dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
         android:onClick="choose_turn"
         android:orientation="horizontal">
 
@@ -45,8 +45,8 @@
             android:id="@+id/player1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:checked="true"
             android:text="@string/player1"
             android:textSize="32sp" />
@@ -55,10 +55,10 @@
             android:id="@+id/player2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginRight="20dp"
             android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
             android:text="@string/player2"
             android:textSize="32sp" />
 
