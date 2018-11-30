@@ -1,4 +1,4 @@
-package com.example.android.tic_tac_toegame;
+package com.alphexng.android.tic_tac_toe_game;
 
 import org.junit.Test;
 

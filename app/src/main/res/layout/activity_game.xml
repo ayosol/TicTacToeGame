@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.tic_tac_toegame.GameActivity"
+    tools:context="com.alphexng.android.tic_tac_toe_game.GameActivity"
     tools:ignore="Overdraw">
 
     <TableLayout

@@ -1,4 +1,4 @@
-package com.example.android.tic_tac_toegame;
+package com.alphexng.android.tic_tac_toe_game;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

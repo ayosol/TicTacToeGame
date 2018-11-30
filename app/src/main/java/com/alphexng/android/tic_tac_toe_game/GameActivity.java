@@ -1,4 +1,4 @@
-package com.example.android.tic_tac_toegame;
+package com.alphexng.android.tic_tac_toe_game;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
@@ -48,7 +48,6 @@ public class GameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game);
 
         boolean mGameType = getIntent().getExtras().getBoolean("gameType");
-//        boolean mGameType = getIntent().getExtras().getBoolean("gameType");
 
         //Initialize the Buttons
         mBoardButtons = new Button[BoardActivity.getBOARD_SIZE()];

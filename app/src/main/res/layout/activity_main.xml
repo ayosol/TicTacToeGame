@@ -6,7 +6,7 @@
     android:layout_margin="12dp"
     android:foregroundGravity="fill_horizontal|center|fill"
     android:orientation="vertical"
-    tools:context="com.example.android.tic_tac_toegame.MainActivity"
+    tools:context="com.alphexng.android.tic_tac_toe_game.MainActivity"
     tools:visibility="visible">
 
     <TextView
